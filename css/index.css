@@ -3378,7 +3378,7 @@ maxWidth1200()
 }
 .site-card .img {
   width: 100%;
-  height: 150px;
+  height: 120px;
   overflow: hidden;
   border-radius: 6px;
   -webkit-box-shadow: 0 1px 2px 0px rgba(0,0,0,0.2);
@@ -3405,13 +3405,12 @@ maxWidth1200()
   margin-top: 8px;
 }
 .site-card .info img {
-  width: 32px;
-  height: 32px;
+  width: 45px !important;
+  height: 45px !important;
   pointer-events: none;
-  border-radius: 16px;
+  border-radius: 20px !important;
   float: left;
-  margin-right: 8px;
-  margin-top: 2px;
+  margin: 0px auto 10px !important;
 }
 .site-card .info span {
   display: block;
@@ -8475,7 +8474,7 @@ center#name-container {
   left: -90px;
 }
 .menus_items .menus_item:nth-child(5) .menus_item_child {
-  left: -50px;
+  left: -90px;
 }
 .menus_items .menus_item:nth-child(6) .menus_item_child {
   left: -133px;
